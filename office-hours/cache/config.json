@@ -1,0 +1,17 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-python3-builder",
+  "inputs": [
+    {
+      "label": "Type your name:",
+      "name": "rit_name",
+      "type": "text",
+      "cache": {
+            "active": true,
+            "qty": 5,
+            "newLabel": "Type another name:"
+      },
+      "default": "Dennis",
+      "tutorial": "Digit your name"
+    }
+  ]
+}

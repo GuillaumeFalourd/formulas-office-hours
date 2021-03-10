@@ -1,0 +1,43 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-python3-builder",
+  "inputs": [
+    {
+      "label": "Type your name: ",
+      "name": "rit_input_text",
+      "required": true,
+      "tutorial": "Your prefer name",
+      "type": "text",
+      "default": "Dennis"
+    },
+    {
+      "label": "Have you ever used Ritchie? ",
+      "name": "rit_input_boolean",
+      "required": false,
+      "type": "bool",
+      "items": [
+        "false",
+        "true"
+      ],
+      "default": false
+    },
+    {
+      "label": "What do you want to automate? ",
+      "name": "rit_input_list",
+      "required": false,
+      "type": "list",
+      "items": [
+        "daily tasks",
+        "workflows",
+        "toils",
+        "everything"
+      ],
+      "default": "everything"
+    },
+    {
+      "label": "Tell us a secret: ",
+      "name": "rit_input_password",
+      "required": true,
+      "type": "password"
+    }
+  ]
+}

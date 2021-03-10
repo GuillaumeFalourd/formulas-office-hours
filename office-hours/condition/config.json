@@ -1,0 +1,36 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-python3-builder",
+  "inputs": [
+    {
+      "label": "Select a system:",
+      "name": "rit_system",
+      "type": "text",
+      "items": [
+        "LINUX",
+        "MACOS",
+        "WINDOWS"
+      ],
+      "required": true
+    },
+    {
+      "condition": {
+        "variable":"rit_system",
+        "operator":"==",
+        "value":"LINUX"
+      },
+      "label": "Select a LINUX OS:",
+      "name": "rit_linux_os",
+      "type": "text",
+      "items": [
+        "UBUNTU",
+        "FEDORA",
+        "CENTOS"
+      ],
+      "pattern": {
+        "regex": "UBUNTU|FEDORA|CENTOS",
+        "mismatchText": "Invalid option"
+      },
+      "required": false
+    }
+  ]
+}
