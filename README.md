@@ -4,7 +4,9 @@
 
 ## Video
 
-[Office Hours (10/03/2021) contents](https://www.youtube.com/watch?v=b372t58kevo&ab_channel=ZUP)
+This repository has been used for the **Zup Innovation** Office Hours on March 10, 2021 (in portuguese):
+
+[![OFFICE HOURS](https://img.youtube.com/vi/b372t58kevo/0.jpg)](https://www.youtube.com/watch?v=b372t58kevo)
 
 ## Documentation
 
